@@ -20,7 +20,7 @@ std::optional<int> binary_search(std::vector<int> list, int target) {
 }
 
 int main() {
-    std::vector<int> list = {1,2,3,4,5,6};
+    std::vector<int> list = {1,2,3,4,5,6,7};
     int target = 7;
     std::optional<int> index = binary_search(list, target);
     if (index.has_value()) {
